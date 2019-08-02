@@ -1,0 +1,31 @@
+
+				DATABASE
+
+This project consists of a database named as "bank"
+
+Tables
+------
+
+1.account:	create table account(
+			Acc integer,
+			Name char(50),
+			DOB integer,
+			Pin integer,
+			Acc_Type char(50),
+			Nationality char(50),
+			caste char(50),
+			MICR_No integer,
+			Gender char(50),
+			Mob integer,
+			Address char(50),
+			Sec_Q char(50),
+			Sec_A char(50),
+			Balence integer
+		);
+
+2.balence: 	create table balence(
+			Name char(50),
+			Acc integer,
+			MICR integer,
+			Balence integer
+		);
